@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten(element) {
   return kittens
 }
 
-function appendKitten(element) {
-kittens.concat(element);
+function appendKitten() {
+kittens.concat();
   return kittens
 }
