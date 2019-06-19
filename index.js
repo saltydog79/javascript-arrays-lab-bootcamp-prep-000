@@ -25,3 +25,8 @@ function appendKitten(element) {
 var newKitten = kittens.concat(element);
   return newKitten
 }
+
+function prependKitten(element) {
+  var newKitten = kittens.slice(element);
+  return newKitten
+}
