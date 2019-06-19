@@ -26,7 +26,7 @@ var newKitten = kittens.concat(element);
   return newKitten
 }
 
-function prependKitten(element) {
-  var newKitten = kittens.unshift(element);
+function prependKitten(name) {
+  var newKitten = kittens.unshift(name);
   return newKitten
 }
