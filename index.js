@@ -27,6 +27,6 @@ var newKitten = kittens.concat(element);
 }
 
 function prependKitten(element) {
-  var newKitten = kittens.slice(element);
+  var newKitten = kittens.unshift(element);
   return newKitten
 }
